@@ -21,7 +21,6 @@ Ubuntu 20.04 LTS
 ## Table of Contents
 * [**Project Requirements**](#project-requirements)
 * [**Project BreakDown**](#project-breakdown)
-* [**Authors**](#authors)
 
 
 ### Project Requirements
