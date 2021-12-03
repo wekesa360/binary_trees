@@ -6,8 +6,8 @@
  *
  * Return: 1 if node is a leaf, and 0 otherwise. If node is NULL, return 0
  */
-int binary_tree_is_leaf(const binary_tree_t *node){
-
+int binary_tree_is_leaf(const binary_tree_t *node)
+{
 	if (node != NULL && node->left == NULL && node->right == NULL)
 		return (1);
 	return (0);
@@ -21,8 +21,8 @@ int binary_tree_is_leaf(const binary_tree_t *node){
  *
  * Return: number of nodes with at least 1 child in a binary tree
  */
-size_t binary_tree_nodes(const binary_tree_t *tree){
-    
+size_t binary_tree_nodes(const binary_tree_t *tree)
+{
 	size_t left, right;
 
 	if (tree == NULL || binary_tree_is_leaf(tree))
